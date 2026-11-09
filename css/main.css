@@ -1,0 +1,404 @@
+body {
+	position: relative;
+	font-family: Arial, sans-serif;
+	font-size: 30px;
+	min-width: 320px;
+	background-color: #cccccc;
+}
+
+.preloader {
+  position: fixed;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  background: black;
+  z-index: 2;
+  transition: 1s all;
+  opacity: 1;
+  visibility: visible;
+}
+
+.loader {
+  width: 75px;
+  height: 75px;
+  border: 10px solid white;
+  border-radius: 50%;
+  border-top-color: blue;
+  position: absolute;
+  left: 50%;
+  top: 50%;
+  transform: translate(-50%, -50%);
+  animation: 2s spin infinite linear;
+}
+
+.done {
+  opacity: 0;
+  visibility: hidden;
+}
+
+@keyframes spin {
+  from {
+    transform: translate(-50%, -50%) rotate(0deg);
+  }
+  to {
+    transform: translate(-50%, -50%) rotate(360deg);
+  }
+}
+
+.lab1a {
+	position: absolute;
+	top: 600px;
+	left: 0px;
+}
+
+.lab1text1 {
+	position: absolute;
+	top:660px;
+	left: 200px;
+}
+
+.lab1b {
+	position: absolute;
+	top: 850px;
+	left: 0px;
+	right: 0px;
+}
+
+.lab1text2 {
+	position: absolute;
+	top:950px;
+	left: 500px;
+}
+
+.lab1c {
+	position: absolute;
+	top: 1170px;
+	right: 0px;
+}
+
+.lab1text3 {
+	position: absolute;
+	top:1220px;
+	left: 765px;
+}
+
+.ul {
+	position: absolute;
+	top:60px;
+	list-style-image: url(../images/lsi.png);
+}
+
+.paragraph {
+	position: absolute;
+	top:180px;
+	left:0px;
+	padding: 20px;
+	border: 2px solid red;
+	color: rgb(11, 126, 157);
+	border-radius:10px;
+	background: rgb(240, 154, 26);
+	text-decoration: underline;
+}
+
+.paragraph2 {
+	position: absolute;
+	top:280px;
+	left:0px;
+	padding: 20px;
+	border: 2px solid red;
+	color: rgb(11, 126, 157);
+	border-radius:10px;
+	background: rgb(240, 154, 26);
+	text-decoration: underline;
+}
+
+.paragraph3 {
+	position: absolute;
+	top:380px;
+	left:0px;
+	padding: 20px;
+	border: 2px solid red;
+	color: rgb(11, 126, 157);
+	border-radius:10px;
+	background: rgb(240, 154, 26);
+	text-decoration: underline;
+}
+
+.shadow {
+	position: absolute;
+	top: 500px;
+	color: #707070;
+	font-size: 7em;
+  text-shadow: 20px 20px 0px #EEE, 7px 7px 0px #707070;
+}
+
+.button7 {
+	position: absolute;
+	top: 60px;
+	left: 0px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button7:hover {
+	background: rgb(190,20,30);
+}
+
+.button7:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button8 {
+	position: absolute;
+	top: 60px;
+	left: 40px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button8:hover {
+	background: rgb(190,20,30);
+}
+
+.button8:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button9 {
+	position: absolute;
+	top: 60px;
+	left: 80px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button9:hover {
+	background: rgb(190,20,30);
+}
+
+.button9:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button10 {
+	position: absolute;
+	top: 60px;
+	left: 120px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button10:hover {
+	background: rgb(190,20,30);
+}
+
+.button10:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button11 {
+	position: absolute;
+	top: 60px;
+	left: 160px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button11:hover {
+	background: rgb(190,20,30);
+}
+
+.button11:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button1 {
+	position: absolute;
+	top: 60px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(65,200,130);
+	box-shadow: 0 -3px rgb(55,170,110) inset;
+	text-decoration: none;
+}
+
+.button1:hover {
+	background: rgb(55,170,110);
+}
+
+.button1:active {
+	background: rgb(35,150,90);
+	box-shadow: 0 3px rgb(35,150,90) inset;
+}
+
+.button2 {
+	position: absolute;
+	top: 120px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(100,240,30);
+	box-shadow: 0 -3px rgb(90,210,10) inset;
+	text-decoration: none;
+}
+
+.button2:hover {
+	background: rgb(90,210,10);
+}
+
+.button2:active {
+	background: rgb(70,190,10);
+	box-shadow: 0 3px rgb(70,190,10) inset;
+}
+
+.button3 {
+	position: absolute;
+	top: 180px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,50,50);
+	box-shadow: 0 -3px rgb(190,20,30) inset;
+	text-decoration: none;
+}
+
+.button3:hover {
+	background: rgb(190,20,30);
+}
+
+.button3:active {
+	background: rgb(170,0,10);
+	box-shadow: 0 3px rgb(170,0,10) inset;
+}
+
+.button4 {
+	position: absolute;
+	top: 240px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(50,100,220);
+	box-shadow: 0 -3px rgb(40,70,200) inset;
+	text-decoration: none;
+}
+
+.button4:hover {
+	background: rgb(40,70,200);
+}
+
+.button4:active {
+	background: rgb(20,50,180);
+	box-shadow: 0 3px rgb(20,50,180) inset;
+}
+
+.button5 {
+	position: absolute;
+	top: 300px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(200,160,50);
+	box-shadow: 0 -3px rgb(190,130,30) inset;
+	text-decoration: none;
+}
+
+.button5:hover {
+	background: rgb(190,130,30);
+}
+
+.button5:active {
+	background: rgb(170,110,10);
+	box-shadow: 0 3px rgb(170,110,10) inset;
+}
+
+.button6 {
+	position: absolute;
+	top: 360px;
+	right: 180px;
+	left: 180px;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(50,50,50);
+	box-shadow: 0 -3px rgb(40,20,30) inset;
+	text-decoration: none;
+}
+
+.button6:hover {
+	background: rgb(40,20,30);
+}
+
+.button6:active {
+	background: rgb(20,0,10);
+	box-shadow: 0 3px rgb(20,0,10) inset;
+}
+
+.buttonBack {
+	position: absolute;
+	top: 0px;
+	left: 0;
+	padding: 6px;
+	border-radius: 10px;
+	text-align: center;
+	color: white;
+	background: rgb(255,100,0);
+	box-shadow: 0 -3px rgb(245,70,0) inset;
+	text-decoration: none;
+}
+
+.buttonBack:hover {
+	background: rgb(245,70,0);
+}
+
+.buttonBack:active {
+	background: rgb(225,50,0);
+	box-shadow: 0 3px rgb(225,50,0) inset;
+}
